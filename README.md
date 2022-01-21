@@ -5,7 +5,7 @@ Yes, the name isn't great -- I initially had a different idea in mind, but wound
 
 The code currently in the repo can be compiled with _javac Main.java_.  It's only three source files.  It takes no input parameters.
 
-#How it Works
+# How it Works
 
 The point of this tool is to calculate the best first-guess word for the game Wordle.  It does this by taking the list of all possible words, and iteratively comparing them against all possible solution words, generating the result guess as it would in the game (i.e.: GREEN, YELLOW, or BLACK).
 
@@ -27,7 +27,8 @@ TL;DR results are:
 
 ## Top 5 Words:
 
-|| Word || Score || Average ||
+| Word | Score | Average |
+| ---- | ----- | ------- |
 | roate |	185067 |	79.9425485961123 |
 | soare |	190696 |	82.3740820734341 |
 | raile |	197271 |	85.2142548596112 |
@@ -36,7 +37,8 @@ TL;DR results are:
 
 ## Bottom 5 Words:
 
-|| Word || Score || Average ||
+| Word | Score | Average |
+| ---- | ----- | ------- |
 | immix	| 2197269	| 949.144276457883 | 
 | xylyl	| 2218252	| 958.208207343413 | 
 | gyppy	| 2242976	| 968.888120950324 | 
