@@ -33,7 +33,7 @@ public class Main {
 		System.err.printf("Best word: \"%s\", Score: %d\n", bestWord, bestScore);
 	}
 	
-	private static TreeSet<String> loadWords(String filename) throws Exception {
+	public static TreeSet<String> loadWords(String filename) throws Exception {
 		TreeSet<String> ret = new TreeSet<String>();
 		BufferedReader br = new BufferedReader(new FileReader(filename));
 		String line;
